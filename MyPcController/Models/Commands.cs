@@ -13,6 +13,7 @@
         VolumeDown4 = 9,
         VolumeDown10 = 10,
         VolumeDown20 = 11,
-        VolumeDown40 = 12
+        VolumeDown40 = 12,
+        MagickLight = 13
     }
 }

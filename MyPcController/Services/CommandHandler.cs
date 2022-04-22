@@ -62,6 +62,10 @@ namespace MyPcController.Services
                     logger.LogDebug("Mute");
                     KeyboardEmulatorService.Mute();
                     break;
+                case Command.MagickLight:
+                    logger.LogDebug("MagickLight");
+                    LightService.Rainbow().Wait();
+                    break;
                 default:
                     logger.LogError("Unknown command");
                     break;
